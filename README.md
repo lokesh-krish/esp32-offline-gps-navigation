@@ -25,7 +25,7 @@ OpenStreetMap tiles — zero network dependency.
 `I2C` `SPI` `UART` `SquareLine Studio` `Arduino framework`
 
 ## Results
-- Stable offline navigation with GPS fix across 4+ satellites
+- Stable offline navigation with GPS fix across 10+ satellites
 - Real-time map tile rendering with directional arrow overlay
 - Speed display responsive to GPS HDOP-filtered velocity data
 
