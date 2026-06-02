@@ -7,7 +7,7 @@ OpenStreetMap tiles — zero network dependency.
 ## Features
 - Real-time GPS location and speed display (TinyGPS++ / NMEA)
 - ~1,000 OpenStreetMap tiles stored on SD card
-- Magnetometer-based compass heading (I2C / LIS3MDL)
+- Magnetometer-based compass heading
 - LVGL graphical interface on 2.1" round touch display
 - GPS-derived speedometer (SquareLine Studio UI)
 - Fully offline — no WiFi, no cellular required
