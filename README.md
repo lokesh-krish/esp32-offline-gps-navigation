@@ -39,4 +39,4 @@ Engineering Internship — i-WORKZ Automotive Pvt. Ltd., Bengaluru (Jan–Mar 20
 
 | Offline Map | GPS Display |
 |-------------|-------------|
-| ![](map_img2.png) | ![](gps-map_img_report.png) |
+| ![](map_img2.png) | ![](gps+map_img_report.png) |
