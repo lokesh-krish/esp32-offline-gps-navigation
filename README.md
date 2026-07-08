@@ -31,3 +31,12 @@ OpenStreetMap tiles — zero network dependency.
 
 ## Built During
 Engineering Internship — i-WORKZ Automotive Pvt. Ltd., Bengaluru (Jan–Mar 2026)
+## Project Images
+
+| Navigation | Speedometer |
+|------------|-------------|
+| ![](map_img1.png) | ![](speedometer_img_report.png) |
+
+| Offline Map | GPS Display |
+|-------------|-------------|
+| ![](map_img2.png) | ![](gps-map_img_report.png) |
