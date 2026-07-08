@@ -33,10 +33,10 @@ OpenStreetMap tiles — zero network dependency.
 Engineering Internship — i-WORKZ Automotive Pvt. Ltd., Bengaluru (Jan–Mar 2026)
 ## Project Images
 
-| Navigation | Speedometer |
+| Offline Map | Offline Map |
 |------------|-------------|
-| ![](map_img1.png) | ![](speedometer_img_report.png) |
+| ![](map_img1.png) | ![](map_img2.png) |
 
-| Offline Map | GPS Display |
+| Speedometer | Display+GPS Module setup |
 |-------------|-------------|
-| ![](map_img2.png) | ![](gps+map_img_report.png) |
+| ![](speedometer_img_report.png) | ![](gps+map_img_report.png) |
