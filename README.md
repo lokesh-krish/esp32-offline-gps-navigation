@@ -4,6 +4,20 @@ A fully offline embedded navigation system built on ESP32-S3 with
 real-time GPS tracking, magnetometer heading, and LVGL-rendered 
 OpenStreetMap tiles — zero network dependency.
 
+## 🎥 Project Demo
+
+https://github.com/user-attachments/assets/ac3ee49c-818b-4f88-b43a-9c3aa9d40c8d
+
+## Project Images
+
+| Offline Map | Offline Map |
+|------------|-------------|
+| ![](map_img1.png) | ![](map_img2.png) |
+
+| Speedometer | Display+GPS Module setup |
+|-------------|-------------|
+| ![](speedometer_img_report.png) | ![](gps+map_img_report.png) |
+
 ## Features
 - Real-time GPS location and speed display (TinyGPS++ / NMEA)
 - ~1,000 OpenStreetMap tiles stored on SD card
@@ -31,12 +45,3 @@ OpenStreetMap tiles — zero network dependency.
 
 ## Built During
 Engineering Internship — i-WORKZ Automotive Pvt. Ltd., Bengaluru (Jan–Mar 2026)
-## Project Images
-
-| Offline Map | Offline Map |
-|------------|-------------|
-| ![](map_img1.png) | ![](map_img2.png) |
-
-| Speedometer | Display+GPS Module setup |
-|-------------|-------------|
-| ![](speedometer_img_report.png) | ![](gps+map_img_report.png) |
