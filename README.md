@@ -10,13 +10,13 @@ https://github.com/user-attachments/assets/ac3ee49c-818b-4f88-b43a-9c3aa9d40c8d
 
 ## Project Images
 
-| Home Screen | Navigation View |
+| Home Screen | GPS Speedometer |
 |------------|-------------|
-| ![](welcome_img.png) | ![](map_img1.png) |
+| ![](welcome_img.png) | ![](speedometer_img_report.png) |
 
-| Offline Map(Zoomed out view) | GPS Speedometer |
+| Navigation View | Offline Map(Zoomed out view) |
 |------------|-------------|
-| ![](map_img2.png) | ![](speedometer_img_report.png) |
+| ![](map_img1.png) | ![](map_img2.png) |
 
 | Hardware setup |
 |-------------|
