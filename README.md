@@ -4,7 +4,7 @@ A fully offline embedded navigation system built on ESP32-S3 with
 real-time GPS tracking, magnetometer heading, and LVGL-rendered 
 OpenStreetMap tiles — zero network dependency.
 
-## 🎥 Project Demo
+## 🎥 Prototype demonstration of the ESP32-S3 offline navigation system showcasing the touchscreen interface, offline map rendering, and navigation functionality:
 
 https://github.com/user-attachments/assets/ac3ee49c-818b-4f88-b43a-9c3aa9d40c8d
 
