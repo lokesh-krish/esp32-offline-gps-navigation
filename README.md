@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/ac3ee49c-818b-4f88-b43a-9c3aa9d40c8d
 ## Hardware
 | Component | Details |
 |---|---|
-| Microcontroller | Waveshare ESP32-S3 Touch LCD 2.1" |
+| Microcontroller | Waveshare ESP32-S3 Touch IPS LCD 2.1" |
 | GPS + IMU | BerryGPS-IMU v4 |
 | Storage | MicroSD card (~1,000 map tiles) |
 | Display | ST7701 round touch LCD |
