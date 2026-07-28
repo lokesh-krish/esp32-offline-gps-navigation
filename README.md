@@ -43,21 +43,25 @@ The system boots to a welcome screen with two modes:
 
 | Component | Details |
 |---|---|
-| Microcontroller | Waveshare ESP32-S3 Touch IPS LCD 2.1" (round) |
-| GPS + IMU | BerryGPS-IMU v4 (GPS, accelerometer, gyroscope, magnetometer) |
-| Storage | MicroSD card (~1,000 offline map tiles) |
-| Display | ST7701 round touchscreen LCD |
+| Microcontroller | Waveshare ESP32-S3 Touch IPS LCD 2.1" (round, all-in-one board) |
+| GPS + IMU | BerryGPS-IMU v4 (GPS, accelerometer, gyroscope, magnetometer) — external, wired over I²C/UART |
+| Storage | MicroSD card slot, integrated on the display module (~1,000 offline map tiles) |
+| Display | ST7701 round touchscreen LCD, integrated on the display module |
 
 ## Connections
 
-| Component | Interface | ESP32-S3 Bus |
-|---|---|---|
-| ST7701 Round Touch Display | Display + touch control | SPI |
-| BerryGPS-IMU v4 — GPS | Serial NMEA output | UART |
-| BerryGPS-IMU v4 — Magnetometer/IMU | Sensor register access | I²C |
-| MicroSD Card | Map tile & asset storage | SPI |
+The Waveshare ESP32-S3 Touch Display is an all-in-one board — display, touch controller, and SD card slot are integrated on-module, so no separate wiring is needed for those. The only external wiring is to the BerryGPS-IMU v4:
 
-*Pin-level mapping intentionally omitted here — module wiring follows the Waveshare ESP32-S3 Touch LCD board's default SPI/UART/I²C assignments.*
+| ESP32-S3 Pin | BerryGPS-IMU V4 Connection | Purpose |
+|---|---|---|
+| 3.3V | I²C Header – 3.3V | Power supply |
+| GND | I²C Header – GND | Common Ground |
+| 3.3V | Header Pin 1 (3.3V) | Power supply |
+| GND | Header Pin 6 or 9 (GND) | Common Ground |
+| RX | Header Pin 10 (GPIO15 / GPS TX) | Receives GPS NMEA data |
+
+- **I²C** — power, ground, and communication with the onboard magnetometer/accelerometer/gyroscope
+- **UART (RX)** — receives GPS NMEA sentences from the module's GPS TX line
 
 ## How It Works
 
@@ -74,7 +78,7 @@ The target area was downloaded from OpenStreetMap, split into smaller tiles (sin
 
 ## Tech Stack
 
-`ESP32-S3` `Embedded C++` `LVGL` `TinyGPS++` `OpenStreetMap` `I2C` `SPI` `UART` `SquareLine Studio` `Arduino Framework`
+`ESP32-S3` `Embedded C++` `LVGL` `TinyGPS++` `OpenStreetMap` `I2C` `UART` `SquareLine Studio` `Arduino Framework`
 
 ## Results
 
